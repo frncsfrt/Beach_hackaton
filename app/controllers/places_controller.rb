@@ -5,7 +5,6 @@ class PlacesController < ApplicationController
   # GET /places.json
   def index
     @places = Place.all
-    binding.pry
   end
 
   # GET /places/1

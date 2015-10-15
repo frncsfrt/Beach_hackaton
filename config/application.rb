@@ -1,4 +1,6 @@
 require File.expand_path('../boot', __FILE__)
+require 'forecast_io'
+ForecastIO.api_key = '30b52aa6545cb9f78c2ce66c692ab768'
 
 require 'rails/all'
 

@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.4'
 gem 'gmaps4rails'
 gem 'geocoder', '~> 1.2.11'
+gem 'forecast_io', '~> 2.0.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets

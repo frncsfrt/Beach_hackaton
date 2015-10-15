@@ -21,6 +21,7 @@
         <td><%= link_to 'Show', place %></td>
         <td><%= link_to 'Edit', edit_place_path(place) %></td>
         <td><%= link_to 'Destroy', place, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=<%=place.latitude%>&lon=<%=place.longitude%>&name=<%=place.address%>"> </iframe> 
       </tr>
     <% end %>
   </tbody>
